@@ -27,3 +27,19 @@ body{
     font-size: 30px;
     text-align: center;
 }
+.first2{
+  padding: 40px;
+  margin: 30px;
+}
+#otp,#capcha{
+    width: 400px;
+    border-radius: 20px;
+    height: 50px;
+    margin: 20px;
+}
+#btn,#btn1{
+    width: 200px;
+    border-radius: 20px;
+    height: 60px;
+    margin: 20px;
+}
