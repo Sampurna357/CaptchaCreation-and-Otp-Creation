@@ -21,9 +21,10 @@
     <div class="second">
         <div class="first1">HEY YOU WANT OTP!!!</div>
         <div class="first2">
-           <div class="res"><input type="text" id="otp"/></div>
-            <input type="button" onclick="otpGenerator();" value="Genearte OTP" id="btn">
+          <input onkeypress="return validate(event);" type="text" id="otp" placeholder="Enter the number required:"/>
+            <input type="button" onclick="otpGenerator();" value="Genearte OTP" id="btn" >
           </div>
+          <div class="res"></div>
     </div>
 </div>
 </body>
